@@ -1,7 +1,6 @@
 language: groovy
 deploy:
-  provider:
-    provider: cloudfoundry
+  provider: cloudfoundry
   api: https://api.run.pivotal.io
   username: sgood@lanctr.com
   password:
