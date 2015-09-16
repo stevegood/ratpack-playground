@@ -9,4 +9,5 @@ deploy:
   organization: Playground
   space: development
   on:
+    branch: master
     repo: stevegood/ratpack-playground
