@@ -1,0 +1,12 @@
+language: groovy
+deploy:
+  provider:
+    provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: sgood@lanctr.com
+  password:
+    secure: uHdLTeb/Ur/WnyD+67RCIq8GMIrGQ2kdbSpe5ii68KFW7LKMOtiVs6La1EVhvAJNittFkmjs+cs+j2YnZAaVT53FBZ3a0jcTBTAo5iZ4pDa6Q8PlMHqM9vEhUldHSJ08DHocSB7rKkXu76onS1diDj0D7Oiku2pFFmYa5PY+H8DQTwRr7ZtmLdc35VHnIf+nDYyfE/bpFbxM1nQuPv+GDlLxME9CQwN+lpga02r1AD+f16xqTfWzS/Mw+93dF5ti7XM6VYjxTG7TvXaakPpClM//08eAZ34Ij6UKtvstipUxFs2NWR15vXAZKquXio5FBZg5hFXeeQ7bEj/4OxfMnWBIEo6JKqMPL3uEiWogA07yULqp+CtC6jzzYJOvWe8PPyY05P+XJT+LGTGgDaZh8w3g+Y/ppCw7EPSgFc/vEO/fwOYozmCU7ytJiC1ob980kBfx/sLUO6I8zNIorFRDP/eVDOVy3/irVGoFgUc/OtW9f6hO3y/OfO2kphkqEgepRBJIvCzsCtCxIpY2U236mfbxpfWcf8ClzbktFTSAJ1X7pQNXBdIdXuTLJ3mK0goRgpwmXo7LUUiwFjV41fi0h9noFla8XOXETQ3RH1dbICbUgiqXvaT625kzrsaD3RfIYXF6MS2Xi0O8ozfdy5tkYfGJxr1XXQSLFu4ntmahjXk=
+  organization: Playground
+  space: development
+  on:
+    repo: stevegood/ratpack-playground

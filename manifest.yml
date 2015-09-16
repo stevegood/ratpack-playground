@@ -1,0 +1,6 @@
+---
+applications:
+- name: ratpackpg
+  memory: 128M
+  instances: 1
+  path: build/distributions/ratpack.zip
